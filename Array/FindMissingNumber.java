@@ -6,7 +6,7 @@ class FindMissingNumber {
 
         int n = arr.length;
         int expectedTotal = (n * (n + 1)) / 2;
-        System.out.println(expectedTotal);
+        // System.out.println(expectedTotal);
 
         int total = 0;
 

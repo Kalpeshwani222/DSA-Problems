@@ -68,9 +68,10 @@ class MergeSortedArray {
     public static void main(String args[]) {
         int m = 3, n = 3;
         int[] arr1 = { 1, 2, 3, 0, 0, 0 };
-
         int[] arr2 = { 2, 5, 6 };
+
         int res[] = merge(arr1, m, arr2, n);
+
         for (int i = 0; i < res.length; i++)
             System.out.print(res[i] + " ");
     }

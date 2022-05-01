@@ -8,6 +8,7 @@ public class HappyNumber {
 
         // run this loop if number is not equal to the 1
         while (n != 1) {
+
             int current = n;
             int sum = 0;
 
@@ -18,7 +19,7 @@ public class HappyNumber {
                 current = current / 10; // 1
             }
 
-            // check if the set contains the elements then number is not happy
+            // check if the set already contains this elements then number is not happy
             if (set.contains(sum)) {
                 return false;
             }

@@ -44,6 +44,7 @@ class Majority_Element {
     // solution -2
 
     public static int majorityElement(int[] nums) {
+
         Map<Integer, Integer> map = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
@@ -51,7 +52,7 @@ class Majority_Element {
                 int count = map.get(nums[i]) + 1;
 
                 if (count > nums.length / 2) {
-                    System.out.println(nums[i]);
+                    // System.outd.println(nums[i]);
                     return nums[i];
                 } else {
                     map.put(nums[i], count);

@@ -70,7 +70,11 @@ class IntersectionOfTwoArrays {
         int arr1[] = { 4, 2, 3, 5, 4, 2, 3 };
         int arr2[] = { 9, 1, 7, 2, 4, 2, 1, 2 };
 
-        intersection(arr1, arr2);
+        int res[] = intersection(arr1, arr2);
+
+        for (Integer no : res) {
+            System.out.println(no);
+        }
 
     }
 }
